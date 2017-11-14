@@ -50,7 +50,7 @@ mkdir -p /var/db/samba4/winbindd_privileged
 chown -R :proxy /var/db/samba4/winbindd_privileged
 chmod -R 0750 /var/db/samba4/winbindd_privileged
 
-fetch -o /usr/local/pkg -q https://raw.githubusercontent.com/pf2ad/pf2ad/2.3.5-SAMBA4/samba/samba.inc
+fetch -o /usr/local/pkg -q https://raw.githubusercontent.com/pf2ad/pf2ad/2.3.5-SAMBA4/samba.inc
 fetch -o /usr/local/pkg -q https://raw.githubusercontent.com/pf2ad/pf2ad/2.3.5-SAMBA4/samba.xml
 
 /usr/local/sbin/pfSsh.php <<EOF
